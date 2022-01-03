@@ -1,13 +1,3 @@
 /*
 !wp-content
 wp-content/*
-
-#Plugin Module
-!wp-content/plugins
-wp-content/plugins/*
-!wp-content/plugins/custom-addon
-
-#Themes Module
-!wp-content/themes
-wp-content/themes/*
-!wp-content/themes/kohere
