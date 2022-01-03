@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/webdwrjm/lfk.webdevalamin.com/wp-content
+    - /bin/cp * $DEPLOYPATH
