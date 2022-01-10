@@ -124,6 +124,7 @@ function lfk_scripts() {
      * Site enqueue Style
      */
     wp_enqueue_style('default', get_template_directory_uri() . '/assets/css/default.css');
+    wp_enqueue_style('icofont', get_template_directory_uri() . '/assets/css/icofont.min.css');
     wp_enqueue_style('bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.min.css');
     wp_enqueue_style('lfk-style', get_stylesheet_uri(), [], time());
     wp_style_add_data('lfk-style', 'rtl', 'replace');
