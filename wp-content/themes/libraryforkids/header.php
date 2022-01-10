@@ -51,7 +51,7 @@ if (has_custom_logo()) {
                         </div>
                         <div class="col-md-6 col">
                             <div class="header-right">
-
+                                <i class="icofont-navigation-menu"></i>
                             </div>
                         </div>
                     </div>
