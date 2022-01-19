@@ -182,3 +182,8 @@ function lfk_scripts() {
     }
 }
 add_action('wp_enqueue_scripts', 'lfk_scripts');
+
+/**
+ * Custom template tags for this theme.
+ */
+require get_template_directory() . '/inc/template-tags.php';
